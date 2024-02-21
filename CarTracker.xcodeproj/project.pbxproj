@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E0F70BE2B760EB9006EBFE6 /* CarContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E0F70BC2B760EB9006EBFE6 /* CarContainer.xcdatamodeld */; };
+		7E0F70C02B7610B1006EBFE6 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0F70BF2B7610B1006EBFE6 /* CoreDataManager.swift */; };
+		7E2F34392B5CCA4D0012B791 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2F34382B5CCA4D0012B791 /* SettingsView.swift */; };
+		7E2F343B2B5CF7B10012B791 /* CarListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2F343A2B5CF7B10012B791 /* CarListView.swift */; };
+		7E2F343D2B5D0F040012B791 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2F343C2B5D0F040012B791 /* CameraView.swift */; };
+		7E2F343F2B5D11C70012B791 /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2F343E2B5D11C70012B791 /* CarView.swift */; };
+		7E2F34412B5D21990012B791 /* NewCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2F34402B5D21990012B791 /* NewCarView.swift */; };
 		7E4AB9BE2B5B7B0500AABA8A /* CarTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4AB9BD2B5B7B0500AABA8A /* CarTrackerApp.swift */; };
-		7E4AB9C02B5B7B0500AABA8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4AB9BF2B5B7B0500AABA8A /* ContentView.swift */; };
+		7E4AB9C02B5B7B0500AABA8A /* CarTrackerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4AB9BF2B5B7B0500AABA8A /* CarTrackerTabView.swift */; };
 		7E4AB9C22B5B7B0700AABA8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4AB9C12B5B7B0700AABA8A /* Assets.xcassets */; };
 		7E4AB9C62B5B7B0700AABA8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4AB9C52B5B7B0700AABA8A /* Preview Assets.xcassets */; };
 		7E4AB9D02B5B7B0800AABA8A /* CarTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4AB9CF2B5B7B0800AABA8A /* CarTrackerTests.swift */; };
@@ -34,11 +41,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E0F70B82B760534006EBFE6 /* CarTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CarTracker.entitlements; sourceTree = "<group>"; };
+		7E0F70BD2B760EB9006EBFE6 /* CarContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarContainer.xcdatamodel; sourceTree = "<group>"; };
+		7E0F70BF2B7610B1006EBFE6 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		7E2F34382B5CCA4D0012B791 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7E2F343A2B5CF7B10012B791 /* CarListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListView.swift; sourceTree = "<group>"; };
+		7E2F343C2B5D0F040012B791 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		7E2F343E2B5D11C70012B791 /* CarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarView.swift; sourceTree = "<group>"; };
+		7E2F34402B5D21990012B791 /* NewCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCarView.swift; sourceTree = "<group>"; };
 		7E4AB9BA2B5B7B0500AABA8A /* CarTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4AB9BD2B5B7B0500AABA8A /* CarTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTrackerApp.swift; sourceTree = "<group>"; };
-		7E4AB9BF2B5B7B0500AABA8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E4AB9BF2B5B7B0500AABA8A /* CarTrackerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTrackerTabView.swift; sourceTree = "<group>"; };
 		7E4AB9C12B5B7B0700AABA8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7E4AB9C32B5B7B0700AABA8A /* CarTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CarTracker.entitlements; sourceTree = "<group>"; };
 		7E4AB9C52B5B7B0700AABA8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7E4AB9CB2B5B7B0800AABA8A /* CarTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4AB9CF2B5B7B0800AABA8A /* CarTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTrackerTests.swift; sourceTree = "<group>"; };
@@ -95,10 +109,17 @@
 		7E4AB9BC2B5B7B0500AABA8A /* CarTracker */ = {
 			isa = PBXGroup;
 			children = (
+				7E2F343A2B5CF7B10012B791 /* CarListView.swift */,
+				7E2F34402B5D21990012B791 /* NewCarView.swift */,
+				7E2F343E2B5D11C70012B791 /* CarView.swift */,
 				7E4AB9BD2B5B7B0500AABA8A /* CarTrackerApp.swift */,
-				7E4AB9BF2B5B7B0500AABA8A /* ContentView.swift */,
+				7E4AB9BF2B5B7B0500AABA8A /* CarTrackerTabView.swift */,
+				7E0F70BC2B760EB9006EBFE6 /* CarContainer.xcdatamodeld */,
+				7E0F70BF2B7610B1006EBFE6 /* CoreDataManager.swift */,
+				7E0F70B82B760534006EBFE6 /* CarTracker.entitlements */,
+				7E2F343C2B5D0F040012B791 /* CameraView.swift */,
+				7E2F34382B5CCA4D0012B791 /* SettingsView.swift */,
 				7E4AB9C12B5B7B0700AABA8A /* Assets.xcassets */,
-				7E4AB9C32B5B7B0700AABA8A /* CarTracker.entitlements */,
 				7E4AB9C42B5B7B0700AABA8A /* Preview Content */,
 			);
 			path = CarTracker;
@@ -259,8 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E4AB9C02B5B7B0500AABA8A /* ContentView.swift in Sources */,
+				7E2F34392B5CCA4D0012B791 /* SettingsView.swift in Sources */,
+				7E2F343B2B5CF7B10012B791 /* CarListView.swift in Sources */,
+				7E0F70BE2B760EB9006EBFE6 /* CarContainer.xcdatamodeld in Sources */,
+				7E4AB9C02B5B7B0500AABA8A /* CarTrackerTabView.swift in Sources */,
+				7E2F34412B5D21990012B791 /* NewCarView.swift in Sources */,
+				7E2F343D2B5D0F040012B791 /* CameraView.swift in Sources */,
+				7E0F70C02B7610B1006EBFE6 /* CoreDataManager.swift in Sources */,
 				7E4AB9BE2B5B7B0500AABA8A /* CarTrackerApp.swift in Sources */,
+				7E2F343F2B5D11C70012B791 /* CarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,6 +637,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7E0F70BC2B760EB9006EBFE6 /* CarContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7E0F70BD2B760EB9006EBFE6 /* CarContainer.xcdatamodel */,
+			);
+			currentVersion = 7E0F70BD2B760EB9006EBFE6 /* CarContainer.xcdatamodel */;
+			path = CarContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7E4AB9B22B5B7B0500AABA8A /* Project object */;
 }
